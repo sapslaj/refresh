@@ -1,0 +1,10 @@
+[package]
+name = "refresh"
+version = "0.0.1"
+edition = "2021"
+license = "GPL-3.0-or-later"
+
+[dependencies]
+clap = { version = "4.5.37", features = ["derive"] }
+clearscreen = "4.0.1"
+humantime = "2.2.0"
